@@ -1,0 +1,65 @@
+body {
+  margin: 0; }
+
+.text-center {
+  text-align: center; }
+
+.section-header {
+  height: 200px;
+  padding-top: 200px;
+  text-align: center; }
+
+.body-content {
+  background: #141D29;
+  font-size: 1.5em;
+  min-height: 600px;
+  padding: 50px; }
+
+/* GOALS
+============================================================================= */
+.goals-body {
+  background: #D8D8D8;
+  min-height: 1800px; }
+  .goals-body h1 {
+    color: rgba(0, 0, 0, 0.5); }
+  .goals-body .title-description {
+    color: rgba(0, 0, 0, 0.3); }
+
+.page-goals {
+  background: #D8D8D8;
+  color: #fff;
+  position: relative; }
+  .page-goals section {
+    background: #D8D8D8; }
+  .page-goals .thank-yous-header {
+    color: #3E463E !important; }
+  .page-goals .filled {
+    background-color: #7D8C7D !important;
+    border-left: 4px solid rgba(0, 0, 0, 0.1);
+    border-right: 4px solid rgba(0, 0, 0, 0.1); }
+  .page-goals .favorite-person h3 {
+    margin-bottom: 15px; }
+
+.goals-header {
+  background: url(../img/goals-bg.jpg) #00A3B1 no-repeat;
+  position: relative;
+  height: 700px;
+  padding: 0;
+  background-position: 50% 0;
+  background-attachment: fixed;
+  background-size: cover; }
+  .goals-header img {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0; }
+
+.goals-entry {
+  min-height: 600px;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.goals-intro {
+  margin-top: -100px;
+  margin-bottom: 100px; }
